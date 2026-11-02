@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Water Bottle">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9f2ff"/><stop offset="1" stop-color="#bcd5fb"/></linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4f8df7"/><stop offset=".45" stop-color="#2563eb"/><stop offset="1" stop-color="#1b3a8f"/></linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e2e8f0"/><stop offset=".5" stop-color="#b6c0ce"/><stop offset="1" stop-color="#8793a5"/></linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <ellipse cx="300" cy="490" rx="110" ry="13" fill="#10234d" opacity=".2"/>
+  <!-- carry loop -->
+  <path d="M272 108 Q272 74 300 74 Q328 74 328 108" fill="none" stroke="#2f3b4d" stroke-width="11" stroke-linecap="round"/>
+  <!-- cap -->
+  <rect x="250" y="104" width="100" height="58" rx="15" fill="#2f3b4d"/>
+  <rect x="250" y="136" width="100" height="6" fill="#fff" opacity=".12"/>
+  <!-- neck -->
+  <rect x="264" y="160" width="72" height="42" fill="url(#steel)"/>
+  <!-- body -->
+  <path d="M222 238 Q222 196 264 196 L336 196 Q378 196 378 238 L378 452 Q378 488 342 488 L258 488 Q222 488 222 452 Z" fill="url(#body)"/>
+  <!-- bands -->
+  <rect x="222" y="316" width="156" height="30" fill="#fff" opacity=".14"/>
+  <rect x="222" y="424" width="156" height="6" fill="#0b1b4d" opacity=".25"/>
+  <text x="300" y="388" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2" fill="#fff" opacity=".9">750 ML</text>
+  <!-- highlight -->
+  <rect x="242" y="220" width="14" height="236" rx="7" fill="#fff" opacity=".3"/>
+  <rect x="266" y="232" width="5" height="190" rx="2.5" fill="#fff" opacity=".14"/>
+</svg>

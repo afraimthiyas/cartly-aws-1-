@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Classic Sneakers">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff3ea"/><stop offset="1" stop-color="#ffd5bb"/></linearGradient>
+    <linearGradient id="up" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6665f"/><stop offset="1" stop-color="#d63d4a"/></linearGradient>
+    <linearGradient id="sole" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e4dfd9"/></linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <ellipse cx="312" cy="462" rx="222" ry="15" fill="#5a2d1a" opacity=".16"/>
+  <!-- sole -->
+  <path d="M96 392 L538 392 L538 412 Q538 454 482 454 L142 454 Q92 454 92 412 Z" fill="url(#sole)" stroke="#d3cdc5" stroke-width="2"/>
+  <path d="M104 420 L528 420" stroke="#cdc6bd" stroke-width="3" stroke-linecap="round"/>
+  <!-- upper -->
+  <path d="M104 394 L104 304 Q104 266 142 258 L212 250 Q236 247 252 264 L284 296 Q300 310 330 316 L440 338 Q516 354 538 394 Z" fill="url(#up)"/>
+  <!-- side stripe + stitching -->
+  <path d="M184 380 Q250 346 336 360 Q380 368 408 380" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="9" stroke-linecap="round"/>
+  <path d="M110 384 L530 384" stroke="#fff" stroke-opacity=".35" stroke-width="2" stroke-dasharray="5 6"/>
+  <!-- toe cap -->
+  <path d="M440 338 Q516 354 538 394 L454 394 Q460 362 440 338 Z" fill="#fff" opacity=".92"/>
+  <!-- heel counter -->
+  <path d="M104 394 L104 304 Q104 266 142 258 L176 254 L176 394 Z" fill="#a82c38" opacity=".85"/>
+  <!-- tongue -->
+  <path d="M212 250 Q220 210 254 218 L284 246 Q264 252 252 264 Q236 247 212 250 Z" fill="#a82c38"/>
+  <!-- collar padding -->
+  <path d="M142 258 L212 250 Q236 247 252 264" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="5" stroke-linecap="round"/>
+  <!-- laces -->
+  <g stroke="#fff" stroke-width="7" stroke-linecap="round">
+    <line x1="276" y1="273" x2="262" y2="297"/>
+    <line x1="307" y1="292" x2="293" y2="316"/>
+    <line x1="341" y1="306" x2="327" y2="330"/>
+    <line x1="377" y1="313" x2="363" y2="337"/>
+  </g>
+  <!-- pull tab -->
+  <path d="M112 300 Q104 286 118 280" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Wireless Headphones">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef0ff"/><stop offset="1" stop-color="#c9ccff"/></linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a3a4f"/><stop offset="1" stop-color="#1c1c28"/></linearGradient>
+    <radialGradient id="acc" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#8b8ff8"/><stop offset="1" stop-color="#4f46e5"/></radialGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <ellipse cx="300" cy="484" rx="210" ry="15" fill="#1e1b4b" opacity=".16"/>
+  <!-- headband -->
+  <path d="M150 340 C 148 112, 452 112, 450 340" fill="none" stroke="#242433" stroke-width="28" stroke-linecap="round"/>
+  <path d="M184 318 C 190 178, 410 178, 416 318" fill="none" stroke="#454560" stroke-width="12" stroke-linecap="round"/>
+  <path d="M236 168 C 280 150, 320 150, 364 168" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width="6" stroke-linecap="round"/>
+  <!-- left cup -->
+  <rect x="198" y="318" width="30" height="130" rx="15" fill="#6a6a8a"/>
+  <rect x="100" y="298" width="112" height="170" rx="52" fill="url(#cup)"/>
+  <circle cx="156" cy="383" r="34" fill="url(#acc)"/>
+  <circle cx="156" cy="383" r="34" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="3"/>
+  <circle cx="156" cy="383" r="11" fill="#1c1c28" opacity=".35"/>
+  <!-- right cup -->
+  <rect x="372" y="318" width="30" height="130" rx="15" fill="#6a6a8a"/>
+  <rect x="388" y="298" width="112" height="170" rx="52" fill="url(#cup)"/>
+  <circle cx="444" cy="383" r="34" fill="url(#acc)"/>
+  <circle cx="444" cy="383" r="34" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="3"/>
+  <circle cx="444" cy="383" r="11" fill="#1c1c28" opacity=".35"/>
+  <!-- cup shine -->
+  <path d="M116 340 Q114 380 124 420" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="7" stroke-linecap="round"/>
+  <path d="M404 340 Q402 380 412 420" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="7" stroke-linecap="round"/>
+</svg>

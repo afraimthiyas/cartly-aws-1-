@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Sunglasses">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6f3ff"/><stop offset="1" stop-color="#bddbfa"/></linearGradient>
+    <linearGradient id="lens" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b3a4d"/><stop offset=".6" stop-color="#101820"/><stop offset="1" stop-color="#7a3b12"/></linearGradient>
+    <clipPath id="cl"><rect x="96" y="236" width="170" height="124" rx="50"/></clipPath>
+    <clipPath id="cr"><rect x="334" y="236" width="170" height="124" rx="50"/></clipPath>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <ellipse cx="300" cy="404" rx="220" ry="11" fill="#12304f" opacity=".16"/>
+  <!-- temples -->
+  <path d="M98 266 L52 280 Q44 284 46 294" fill="none" stroke="#17171c" stroke-width="13" stroke-linecap="round"/>
+  <path d="M502 266 L548 280 Q556 284 554 294" fill="none" stroke="#17171c" stroke-width="13" stroke-linecap="round"/>
+  <!-- bridge -->
+  <path d="M264 276 Q300 248 336 276" fill="none" stroke="#17171c" stroke-width="13" stroke-linecap="round"/>
+  <!-- left lens -->
+  <rect x="96" y="236" width="170" height="124" rx="50" fill="url(#lens)"/>
+  <g clip-path="url(#cl)"><path d="M140 230 L176 230 L136 366 L100 366 Z" fill="#fff" opacity=".2"/><path d="M190 230 L204 230 L164 366 L150 366 Z" fill="#fff" opacity=".12"/></g>
+  <rect x="96" y="236" width="170" height="124" rx="50" fill="none" stroke="#17171c" stroke-width="14"/>
+  <!-- right lens -->
+  <rect x="334" y="236" width="170" height="124" rx="50" fill="url(#lens)"/>
+  <g clip-path="url(#cr)"><path d="M378 230 L414 230 L374 366 L338 366 Z" fill="#fff" opacity=".2"/><path d="M428 230 L442 230 L402 366 L388 366 Z" fill="#fff" opacity=".12"/></g>
+  <rect x="334" y="236" width="170" height="124" rx="50" fill="none" stroke="#17171c" stroke-width="14"/>
+</svg>
